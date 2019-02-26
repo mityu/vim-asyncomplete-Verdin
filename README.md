@@ -1,7 +1,10 @@
 # vim-asyncomplete-Verdin
 An [asyncomplete.vim](https://github.com/prabirshrestha/asyncomplete.vim) source for VimScript via [vim-Verdin](https://github.com/machakann/vim-Verdin).
 
-# Usage
+# Dependences
+[vim-Verdin](https://github.com/machakann/vim-Verdin)
+
+# Registration
 Write following code in your .vimrc:
 
 ```vim
