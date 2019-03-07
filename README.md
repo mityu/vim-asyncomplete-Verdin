@@ -1,14 +1,14 @@
 # vim-asyncomplete-Verdin
 An [asyncomplete.vim](https://github.com/prabirshrestha/asyncomplete.vim) source for VimScript via [vim-Verdin](https://github.com/machakann/vim-Verdin).
 
-# Dependences
+## Dependences
 [vim-Verdin](https://github.com/machakann/vim-Verdin)
 
-# Registration
+## Registration
 Write following code in your .vimrc:
 
 ```vim
-    call asyncomplete#register_source(asyncomplete#sources#Verdin#get_source_options{
+    call asyncomplete#register_source(asyncomplete#sources#Verdin#get_source_options({
                 \ 'name': 'Verdin',
                 \ 'whitelist': ['vim'],
                 \ 'completor': function('asyncomplete#sources#Verdin#completor')
